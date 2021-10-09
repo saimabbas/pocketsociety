@@ -154,7 +154,7 @@ button {
   align-items: flex-start;
 }
 .header-mob main a {
-  font-size: 2.25rem;
+  font-size: 2rem;
   color: var(--white);
   margin: 0 0 2.5rem 0;
   font-weight: 500;
@@ -278,7 +278,7 @@ button {
   z-index: 10;
 }
 .roadmap-box p {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   color: var(--white);
   margin: 1rem 0 0 0;
   text-align: center;
@@ -325,8 +325,8 @@ button {
   background-color: rgba(0, 0, 0, 0.35);
 }
 .flip-card-front img {
-  width: 12.5rem;
-  height: 12.5rem;
+  width: 15.5rem;
+  height: 15.5rem;
   border-radius: 50%;
 }
 .flip-card-front h2 {
@@ -415,7 +415,7 @@ button {
 .social-content a i {
   font-size: 2rem;
   margin: 0 1rem 0 0;
-  width: 2rem;
+  width: 2.25rem;
 }
 .social {
   background-color: rgba(0, 0, 0, 0.35);
@@ -461,7 +461,7 @@ button {
     backdrop-filter: blur(5px) !important;
     overflow: unset;
   }
-  .header-content main > a {
+  .mob-links {
     display: none;
   }
   .header-content main > * {
