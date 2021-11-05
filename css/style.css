@@ -604,4 +604,7 @@ button {
   .road-map-line {
     transform: translate(1.25rem, 0);
   }
+  .roadmap-box-right {
+    margin: 2.5rem 0;
+  }
 }
