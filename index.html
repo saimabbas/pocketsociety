@@ -1,76 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pocket Society</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.0.8/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Pocket Society</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.0.8/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
-  <link rel="stylesheet" href="css/style.css" />
-</head>
-
-<body>
-  <div class="main">
-    <div id="section1"></div>
-    <!-- Header -->
-    <div class="header">
-      <div class="box">
-        <div class="header-content">
-          <a onclick="move1()"><img src="./asseets/logo.png" alt="" /></a>
-          <main>
-            <a class="mob-links">Connect Wallet</a>
-            <a class="mob-links" onclick="move2()">Roadmap</a>
-            <a class="mob-links" onclick="move3()">Team</a>
-            <a class="mob-links" onclick="move4()">FAQ</a>
-            <a class="mob-links" onclick="move5()">Social Links</a>
-            <a class="button" href=' https://discord.gg/pocketsociety'>
-              <span>Discord <i class="fab fa-discord"></i></span>
-            </a>
-            <i onclick="openMobHeader()" class="fas fa-bars"></i>
-            <i onclick="closeMobHeader()" class="fas fa-times"></i>
-          </main>
-        </div>
-        <div class="header-mob">
-          <main>
-            <a class="mob-links">Connect Wallet</a>
-            <a onclick="move22()">Roadmap</a>
-            <a onclick="move32()">Team</a>
-            <a onclick="move42()">FAQ</a>
-            <a onclick="move52()">Social Links</a>
-          </main>
+  <body>
+    <div class="main">
+      <div id="section1"></div>
+      <!-- Header -->
+      <div class="header">
+        <div class="box">
+          <div class="header-content">
+            <a onclick="move1()"><img src="./asseets/logo.png" alt="" /></a>
+            <main>
+              <a class="mob-links">Connect Wallet</a>
+              <a class="mob-links" onclick="move2()">Roadmap</a>
+              <a class="mob-links" onclick="move3()">Team</a>
+              <a class="mob-links" onclick="move4()">FAQ</a>
+              <a class="mob-links" onclick="move5()">Social Links</a>
+              <a class="button" href=" https://discord.gg/pocketsociety">
+                <span>Discord <i class="fab fa-discord"></i></span>
+              </a>
+              <i onclick="openMobHeader()" class="fas fa-bars"></i>
+              <i onclick="closeMobHeader()" class="fas fa-times"></i>
+            </main>
+          </div>
+          <div class="header-mob">
+            <main>
+              <a class="mob-links">Connect Wallet</a>
+              <a onclick="move22()">Roadmap</a>
+              <a onclick="move32()">Team</a>
+              <a onclick="move42()">FAQ</a>
+              <a onclick="move52()">Social Links</a>
+            </main>
+          </div>
         </div>
       </div>
-    </div>
-    <!-- Hero Section -->
-    <div class="hero section">
-      <div class="box">
-        <div class="hero-content">
-          <h1>WELCOME TO THE POCKET SOCIETY PROJECT</h1>
-          <h2>
-            Pocket Society is a collection of 10,000 completely unique Pocket
-            People NFTS- 5,000 males and 5,000 females. These teeny tiny
-            people have an entire society living on the Solana blockchain.
-            Your pocket person not only will be a ticket to a whole new utopia
-            but also grants access to our game that is currently in the works.
-            Pocket Society is a RPG computer game where your NFT doubles as
-            your own unique character. In the world of Sol, you’ll be able to
-            fight amongst other players for loot worth real money, build an
-            empire and go on a quest to destroy the monsters who want to tear
-            your entire society down!
-          </h2>
-          <button class="button"><span>MINT NOW!</span></button>
+      <!-- Hero Section -->
+      <div class="hero section">
+        <div class="box">
+          <div class="hero-content">
+            <h1>WELCOME TO THE POCKET SOCIETY PROJECT</h1>
+            <h2>
+              Pocket Society is a collection of 10,000 completely unique Pocket
+              People NFTS- 5,000 males and 5,000 females. These teeny tiny
+              people have an entire society living on the Solana blockchain.
+              Your pocket person not only will be a ticket to a whole new utopia
+              but also grants access to our game that is currently in the works.
+              Pocket Society is a RPG computer game where your NFT doubles as
+              your own unique character. In the world of Sol, you’ll be able to
+              fight amongst other players for loot worth real money, build an
+              empire and go on a quest to destroy the monsters who want to tear
+              your entire society down!
+            </h2>
+            <button class="button"><span>MINT NOW!</span></button>
+          </div>
         </div>
       </div>
-    </div>
-    <div id="section2"></div>
-    <!-- Roadmap Section -->
-    <div class="roadmap section" id="secion2">
-      <div class="box">
-        <h1 class="heading">Roadmap</h1>
-        <div class="swiper-box">
+      <div id="section2"></div>
+      <!-- Roadmap Section -->
+      <div class="roadmap section" id="secion2">
+        <div class="box">
+          <h1 class="heading">Roadmap</h1>
+          <div class="roadmap-content">
+            <div class="road-map-line"></div>
+            <div class="roadmap-box-left">
+              <div class="roadmap-box-content">
+                <div class="roadmap-text-box">
+                  <h6>Phase 1</h6>
+                  <p>- Release project November 8th</p>
+                  <p>- Build our community incredibly strong!</p>
+                  <p>- Feature Pocket Society on HowRare.is</p>
+                  <p>
+                    - Pocket Society will be granting 5 sol (each) to whoever
+                    ends up with the top 10 rarest Pocket People
+                  </p>
+                  <p>- AMA(s) DAILY</p>
+                </div>
+                <div class="roadmap-circle">1</div>
+              </div>
+            </div>
+            <div class="roadmap-box-right">
+              <div class="roadmap-box-content">
+                <div class="roadmap-circle">2</div>
+                <div class="roadmap-text-box">
+                  <h6>Phase 2</h6>
+                  <p>
+                    - More than an NFT, Pocket Society will become a lifestyle.
+                    Competitions and random airdrops will be organized to win
+                    prizes of your favorite pocket people!
+                  </p>
+                  <p>- Continue to grow discord/twitter</p>
+                  <p>- Get verified on Solanart</p>
+                  <p>- Introduce Influencer partnerships</p>
+                </div>
+              </div>
+            </div>
+            <div class="roadmap-box-left">
+              <div class="roadmap-box-content">
+                <div class="roadmap-text-box">
+                  <h6>Phase 3</h6>
+                  <p>
+                    - Community is the heart of Pocket Society. We will decide
+                    together the direction to follow for the most dedicated
+                    Squad on Solanart!
+                  </p>
+                  <p>- Merchandise</p>
+                  <p>- Live networking Events</p>
+                </div>
+                <div class="roadmap-circle">3</div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="swiper-box">
           <span class="roadmap-lr lrl"><i class="fas fa-chevron-left"></i></span>
           <div class="roadmap-content">
             <div class="swiper-wrapper">
@@ -154,358 +212,364 @@
             </div>
           </div>
           <span class="roadmap-lr rlr"><i class="fas fa-chevron-right"></i></span>
+        </div> -->
         </div>
       </div>
-    </div>
-    <!-- Team -->
-    <div class="team section" id="section3">
-      <div class="box">
-        <h1 class="heading">Team</h1>
-        <div class="team-content">
-          <div class="team-card">
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front">
-                  <img src="./asseets/t1.jpeg" alt="" />
-                  <main>
-                    <h2>Pocket Ava</h2>
-                    <h3>Founder</h3>
-                  </main>
+      <!-- Team -->
+      <div class="team section" id="section3">
+        <div class="box">
+          <h1 class="heading">Team</h1>
+          <div class="team-content">
+            <div class="team-card">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="./asseets/t1.jpeg" alt="" />
+                    <main>
+                      <h2>Pocket Ava</h2>
+                      <h3>Founder</h3>
+                    </main>
+                  </div>
+                  <div class="flip-card-back">
+                    <p>
+                      When Pocket Ava isn’t destroying an entire society, she’s
+                      out creating some! Founder and the reason 10,000 NFTS are
+                      in danger, sweet huh?
+                    </p>
+                  </div>
                 </div>
-                <div class="flip-card-back">
-                  <p>
-                    When Pocket Ava isn’t destroying an entire society, she’s
-                    out creating some! Founder and the reason 10,000 NFTS are
-                    in danger, sweet huh?
-                  </p>
+              </div>
+            </div>
+            <div class="team-card">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="./asseets/t2.jpeg" alt="" />
+                    <main>
+                      <h2>Pocket Paul</h2>
+                      <h3>Head of Marketing</h3>
+                    </main>
+                  </div>
+                  <div class="flip-card-back">
+                    <p>
+                      Pocket Paul can talk to a wall for 8 hours about anything
+                      and everything. But he knows how to spread the word!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="team-card">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="./asseets/t3.jpeg" alt="" />
+                    <main>
+                      <h2>Pocket Dexter</h2>
+                      <h3>Developer</h3>
+                    </main>
+                  </div>
+                  <div class="flip-card-back">
+                    <p>
+                      Pocket Dexter likes to binge watch Netflix when he’s not
+                      glued to his computer, coding the world away.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="team-card">
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front">
-                  <img src="./asseets/t2.jpeg" alt="" />
-                  <main>
-                    <h2>Pocket Paul</h2>
-                    <h3>Head of Marketing</h3>
-                  </main>
-                </div>
-                <div class="flip-card-back">
-                  <p>
-                    Pocket Paul can talk to a wall for 8 hours about anything
-                    and everything. But he knows how to spread the word!
-                  </p>
-                </div>
+        </div>
+      </div>
+      <!-- FAQ -->
+      <div class="faq section" id="section4">
+        <div class="box">
+          <h1 class="heading">FAQ's</h1>
+          <div class="faq-content">
+            <div class="faq-box q1">
+              <div class="faq-q">
+                <h2>Q. HOW DO I GET A POCKET PERSON?</h2>
+                <i class="fas fa-chevron-down"></i>
+              </div>
+              <div class="faq-a a a1">
+                Come launch day, everyone will be able to mint a Pocket Person
+                NFT directly from our website.
+              </div>
+            </div>
+            <div class="faq-box q2">
+              <div class="faq-q">
+                <h2>Q. WHEN IS THE LAUNCH?</h2>
+                <i class="fas fa-chevron-down"></i>
+              </div>
+              <div class="faq-a a a2">Launch will be announced soon!</div>
+            </div>
+            <div class="faq-box q3">
+              <div class="faq-q">
+                <h2>
+                  Q. WHAT IS THE POCKET SOCIETY VIDEO GAME AND WHY IS POCKET AVA
+                  IMPORTANT?
+                </h2>
+                <i class="fas fa-chevron-down"></i>
+              </div>
+              <div class="faq-a a a3">
+                It’s an RPG computer game in the works that will allow players
+                to fight for loot worth real money, create a home, start a war
+                with other plays, and go on quests to save the society! And
+                Pocket Ava- is the reason the monsters find your society but
+                also the key to help you take them down!
+              </div>
+            </div>
+            <div class="faq-box q4">
+              <div class="faq-q">
+                <h2>Q. HOW DO I GET THE GENDER I WANT?</h2>
+                <i class="fas fa-chevron-down"></i>
+              </div>
+              <div class="faq-a a a4">
+                Minting will be completely randomized! You can sell/buy after
+                mint but there will be no telling on who you will get!
+              </div>
+            </div>
+            <div class="faq-box q5">
+              <div class="faq-q">
+                <h2>Q. HOW DO I JOIN THE SECRET SOCIETY?</h2>
+                <i class="fas fa-chevron-down"></i>
+              </div>
+              <div class="faq-a a a5">
+                The secret society consists of verified pocket people holders!
+              </div>
+            </div>
+            <div class="faq-box q6">
+              <div class="faq-q">
+                <h2>Q. WILL THERE BE MORE POCKET PEOPLE?</h2>
+                <i class="fas fa-chevron-down"></i>
+              </div>
+              <div class="faq-a a a6">
+                No, there will only ever be the 10,000 that will be available
+                come launch day.
+              </div>
+            </div>
+            <div class="faq-box q7">
+              <div class="faq-q">
+                <h2>Q. CAN I TRADE?</h2>
+                <i class="fas fa-chevron-down"></i>
+              </div>
+              <div class="faq-a a a7">
+                We are in the works of getting on platforms where all holders
+                will be able to trade with other holders if wanted!
               </div>
             </div>
           </div>
-          <div class="team-card">
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front">
-                  <img src="./asseets/t3.jpeg" alt="" />
-                  <main>
-                    <h2>Pocket Dexter</h2>
-                    <h3>Developer</h3>
-                  </main>
-                </div>
-                <div class="flip-card-back">
-                  <p>
-                    Pocket Dexter likes to binge watch Netflix when he’s not
-                    glued to his computer, coding the world away.
-                  </p>
-                </div>
-              </div>
-            </div>
+        </div>
+      </div>
+      <!-- Social Links -->
+      <div class="social section" id="section5">
+        <div class="box">
+          <h1 class="heading">Social Links</h1>
+          <div class="social-content">
+            <a href="https://discord.gg/pocketsociety"
+              ><i class="fab fa-discord"></i> Discord</a
+            >
+            <a href="https://instagram.com/pocketsocietyproject"
+              ><i class="fab fa-instagram"></i> Instagram</a
+            >
+            <a href="https://twitter.com/pocketsolciety"
+              ><i class="fab fa-twitter"></i> Twitter</a
+            >
+            <a href="https://youtube.com/channel/UCnoiO2pL1Czedp2VfkqsMrA"
+              ><i class="fab fa-youtube"></i> YouTube</a
+            >
+          </div>
+        </div>
+      </div>
+      <!-- Footer -->
+      <div class="footer section">
+        <div class="box">
+          <div class="footer-content">
+            Copyright © 2021 Pocket Society. All Rights Reserved.
           </div>
         </div>
       </div>
     </div>
-    <!-- FAQ -->
-    <div class="faq section" id="section4">
-      <div class="box">
-        <h1 class="heading">FAQ's</h1>
-        <div class="faq-content">
-          <div class="faq-box q1">
-            <div class="faq-q">
-              <h2>Q. HOW DO I GET A POCKET PERSON?</h2>
-              <i class="fas fa-chevron-down"></i>
-            </div>
-            <div class="faq-a a a1">
-              Come launch day, everyone will be able to mint a Pocket Person
-              NFT directly from our website.
-            </div>
-          </div>
-          <div class="faq-box q2">
-            <div class="faq-q">
-              <h2>Q. WHEN IS THE LAUNCH?</h2>
-              <i class="fas fa-chevron-down"></i>
-            </div>
-            <div class="faq-a a a2">Launch will be announced soon!</div>
-          </div>
-          <div class="faq-box q3">
-            <div class="faq-q">
-              <h2>
-                Q. WHAT IS THE POCKET SOCIETY VIDEO GAME AND WHY IS POCKET AVA
-                IMPORTANT?
-              </h2>
-              <i class="fas fa-chevron-down"></i>
-            </div>
-            <div class="faq-a a a3">
-              It’s an RPG computer game in the works that will allow players
-              to fight for loot worth real money, create a home, start a war
-              with other plays, and go on quests to save the society! And
-              Pocket Ava- is the reason the monsters find your society but
-              also the key to help you take them down!
-            </div>
-          </div>
-          <div class="faq-box q4">
-            <div class="faq-q">
-              <h2>Q. HOW DO I GET THE GENDER I WANT?</h2>
-              <i class="fas fa-chevron-down"></i>
-            </div>
-            <div class="faq-a a a4">
-              Minting will be completely randomized! You can sell/buy after
-              mint but there will be no telling on who you will get!
-            </div>
-          </div>
-          <div class="faq-box q5">
-            <div class="faq-q">
-              <h2>Q. HOW DO I JOIN THE SECRET SOCIETY?</h2>
-              <i class="fas fa-chevron-down"></i>
-            </div>
-            <div class="faq-a a a5">
-              The secret society consists of verified pocket people holders!
-            </div>
-          </div>
-          <div class="faq-box q6">
-            <div class="faq-q">
-              <h2>Q. WILL THERE BE MORE POCKET PEOPLE?</h2>
-              <i class="fas fa-chevron-down"></i>
-            </div>
-            <div class="faq-a a a6">
-              No, there will only ever be the 10,000 that will be available
-              come launch day.
-            </div>
-          </div>
-          <div class="faq-box q7">
-            <div class="faq-q">
-              <h2>Q. CAN I TRADE?</h2>
-              <i class="fas fa-chevron-down"></i>
-            </div>
-            <div class="faq-a a a7">
-              We are in the works of getting on platforms where all holders
-              will be able to trade with other holders if wanted!
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Social Links -->
-    <div class="social section" id="section5">
-      <div class="box">
-        <h1 class="heading">Social Links</h1>
-        <div class="social-content">
-          <a href="https://discord.gg/pocketsociety"><i class="fab fa-discord"></i> Discord</a>
-          <a href="https://instagram.com/pocketsocietyproject"><i class="fab fa-instagram"></i> Instagram</a>
-          <a href="https://twitter.com/pocketsolciety"><i class="fab fa-twitter"></i> Twitter</a>
-          <a href="https://youtube.com/channel/UCnoiO2pL1Czedp2VfkqsMrA"><i class="fab fa-youtube"></i> YouTube</a>
-        </div>
-      </div>
-    </div>
-    <!-- Footer -->
-    <div class="footer section">
-      <div class="box">
-        <div class="footer-content">
-          Copyright © 2021 Pocket Society. All Rights Reserved.
-        </div>
-      </div>
-    </div>
-  </div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.0.8/swiper-bundle.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollToPlugin.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
-  <script src="js/script.js"></script>
-  <script>
-    /* Roadmap Swiper Initialization */
-    var swiper = new Swiper(".roadmap-content", {
-      loop: true,
-      grabCursor: false,
-      slidesPerView: 1,
-      navigation: {
-        nextEl: ".rlr",
-        prevEl: ".lrl",
-      },
-      breakpoints: {
-        700: {
-          slidesPerView: 2,
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.0.8/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollToPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+      /* Roadmap Swiper Initialization */
+      var swiper = new Swiper(".roadmap-content", {
+        loop: true,
+        grabCursor: false,
+        slidesPerView: 1,
+        navigation: {
+          nextEl: ".rlr",
+          prevEl: ".lrl",
         },
-        1000: {
-          slidesPerView: 3,
+        breakpoints: {
+          700: {
+            slidesPerView: 2,
+          },
+          1000: {
+            slidesPerView: 3,
+          },
         },
-      },
-    });
-    /* Custom FAQ accordians */
-    $(".q1").click(() => {
-      $(".a1").slideToggle(250);
-      $(".q1 i").toggleClass("rotate");
-    });
-    $(".q2").click(() => {
-      $(".a2").slideToggle(250);
-      $(".q2 i").toggleClass("rotate");
-    });
-    $(".q3").click(() => {
-      $(".a3").slideToggle(250);
-      $(".q3 i").toggleClass("rotate");
-    });
-    $(".q4").click(() => {
-      $(".a4").slideToggle(250);
-      $(".q4 i").toggleClass("rotate");
-    });
-    $(".q5").click(() => {
-      $(".a5").slideToggle(250);
-      $(".q5 i").toggleClass("rotate");
-    });
-    $(".q6").click(() => {
-      $(".a6").slideToggle(250);
-      $(".q6 i").toggleClass("rotate");
-    });
-    $(".q7").click(() => {
-      $(".a7").slideToggle(250);
-      $(".q7 i").toggleClass("rotate");
-    });
+      });
+      /* Custom FAQ accordians */
+      $(".q1").click(() => {
+        $(".a1").slideToggle(250);
+        $(".q1 i").toggleClass("rotate");
+      });
+      $(".q2").click(() => {
+        $(".a2").slideToggle(250);
+        $(".q2 i").toggleClass("rotate");
+      });
+      $(".q3").click(() => {
+        $(".a3").slideToggle(250);
+        $(".q3 i").toggleClass("rotate");
+      });
+      $(".q4").click(() => {
+        $(".a4").slideToggle(250);
+        $(".q4 i").toggleClass("rotate");
+      });
+      $(".q5").click(() => {
+        $(".a5").slideToggle(250);
+        $(".q5 i").toggleClass("rotate");
+      });
+      $(".q6").click(() => {
+        $(".a6").slideToggle(250);
+        $(".q6 i").toggleClass("rotate");
+      });
+      $(".q7").click(() => {
+        $(".a7").slideToggle(250);
+        $(".q7 i").toggleClass("rotate");
+      });
 
-    /* Header on-scroll Animation */
-    const headerAnim = gsap.timeline();
-    headerAnim.fromTo(
-      ".header",
-      {
-        backgroundColor: "transparent",
-        backdropFilter: "blur(0px)",
-        // padding: '2.5rem 0'
-      },
-      {
-        backgroundColor: "rgba(0, 0, 0, 0.35)",
-        backdropFilter: "blur(5px)",
-        // padding: "1rem 0",
-        scrollTrigger: {
-          trigger: ".header",
-          start: "0% 0",
-          end: "100% 0",
-          scrub: 0.5,
-          toggleActions: "start pause resume none",
+      /* Header on-scroll Animation */
+      const headerAnim = gsap.timeline();
+      headerAnim.fromTo(
+        ".header",
+        {
+          backgroundColor: "transparent",
+          backdropFilter: "blur(0px)",
+          // padding: '2.5rem 0'
         },
-      }
-    );
+        {
+          backgroundColor: "rgba(0, 0, 0, 0.35)",
+          backdropFilter: "blur(5px)",
+          // padding: "1rem 0",
+          scrollTrigger: {
+            trigger: ".header",
+            start: "0% 0",
+            end: "50% 0",
+            scrub: 0.5,
+            toggleActions: "start pause resume none",
+          },
+        }
+      );
 
-    const openMobHeader = () => {
-      $(".header-mob").css({ display: 'flex' })
-      $(".header-content .fa-times").css({ display: 'block' })
-      $(".header-content .fa-bars").css({ display: 'none' })
-      $("body").css({ overflow: 'hidden' })
-    }
-    const closeMobHeader = () => {
-      $(".header-mob").css({ display: 'none' })
-      $(".header-content .fa-times").css({ display: 'none' })
-      $(".header-content .fa-bars").css({ display: 'block' })
-      $("body").css({ overflow: 'auto' })
-    }
+      const openMobHeader = () => {
+        $(".header-mob").css({ display: "flex" });
+        $(".header-content .fa-times").css({ display: "block" });
+        $(".header-content .fa-bars").css({ display: "none" });
+        $("body").css({ overflow: "hidden" });
+      };
+      const closeMobHeader = () => {
+        $(".header-mob").css({ display: "none" });
+        $(".header-content .fa-times").css({ display: "none" });
+        $(".header-content .fa-bars").css({ display: "block" });
+        $("body").css({ overflow: "auto" });
+      };
 
-    const move1 = () => {
-      gsap.to(window, {
-        scrollTo: {
-          y: "#section1",
-        },
-        ease: Power4.easeInOut,
-      });
-    };
-    const move2 = () => {
-      gsap.to(window, {
-        scrollTo: {
-          y: "#section2",
-        },
-        ease: Power4.easeInOut,
-      });
-    };
-    const move3 = () => {
-      gsap.to(window, {
-        scrollTo: {
-          y: "#section3",
-        },
-        ease: Power4.easeInOut,
-      });
-    };
-    const move4 = () => {
-      gsap.to(window, {
-        scrollTo: {
-          y: "#section4",
-        },
-        ease: Power4.easeInOut,
-      });
-    };
-    const move5 = () => {
-      gsap.to(window, {
-        scrollTo: {
-          y: "#section5",
-        },
-        ease: Power4.easeInOut,
-      });
-    };
+      const move1 = () => {
+        gsap.to(window, {
+          scrollTo: {
+            y: "#section1",
+          },
+          ease: Power4.easeInOut,
+        });
+      };
+      const move2 = () => {
+        gsap.to(window, {
+          scrollTo: {
+            y: "#section2",
+          },
+          ease: Power4.easeInOut,
+        });
+      };
+      const move3 = () => {
+        gsap.to(window, {
+          scrollTo: {
+            y: "#section3",
+          },
+          ease: Power4.easeInOut,
+        });
+      };
+      const move4 = () => {
+        gsap.to(window, {
+          scrollTo: {
+            y: "#section4",
+          },
+          ease: Power4.easeInOut,
+        });
+      };
+      const move5 = () => {
+        gsap.to(window, {
+          scrollTo: {
+            y: "#section5",
+          },
+          ease: Power4.easeInOut,
+        });
+      };
 
-    const move12 = () => {
-      gsap.to(window, {
-        scrollTo: {
-          y: "#section1",
-        },
-        ease: Power4.easeInOut,
-      });
-      closeMobHeader()
-    };
-    const move22 = () => {
-      gsap.to(window, {
-        scrollTo: {
-          y: "#section2",
-          offsetY: 60
-        },
-        ease: Power4.easeInOut,
-      });
-      closeMobHeader()
-    };
-    const move32 = () => {
-      gsap.to(window, {
-        scrollTo: {
-          y: "#section3",
-          offsetY: 60
-        },
-        ease: Power4.easeInOut,
-      });
-      closeMobHeader()
-    };
-    const move42 = () => {
-      gsap.to(window, {
-        scrollTo: {
-          y: "#section4",
-          offsetY: 60
-        },
-        ease: Power4.easeInOut,
-      });
-      closeMobHeader()
-    };
-    const move52 = () => {
-      gsap.to(window, {
-        scrollTo: {
-          y: "#section5",
-        },
-        ease: Power4.easeInOut,
-      });
-      closeMobHeader()
-    };
-
-  </script>
-</body>
-
+      const move12 = () => {
+        gsap.to(window, {
+          scrollTo: {
+            y: "#section1",
+          },
+          ease: Power4.easeInOut,
+        });
+        closeMobHeader();
+      };
+      const move22 = () => {
+        gsap.to(window, {
+          scrollTo: {
+            y: "#section2",
+            offsetY: 60,
+          },
+          ease: Power4.easeInOut,
+        });
+        closeMobHeader();
+      };
+      const move32 = () => {
+        gsap.to(window, {
+          scrollTo: {
+            y: "#section3",
+            offsetY: 60,
+          },
+          ease: Power4.easeInOut,
+        });
+        closeMobHeader();
+      };
+      const move42 = () => {
+        gsap.to(window, {
+          scrollTo: {
+            y: "#section4",
+            offsetY: 60,
+          },
+          ease: Power4.easeInOut,
+        });
+        closeMobHeader();
+      };
+      const move52 = () => {
+        gsap.to(window, {
+          scrollTo: {
+            y: "#section5",
+          },
+          ease: Power4.easeInOut,
+        });
+        closeMobHeader();
+      };
+    </script>
+  </body>
 </html>

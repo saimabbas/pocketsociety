@@ -430,6 +430,75 @@ button {
   align-items: center;
   justify-content: center;
 }
+/* Roadmap */
+.roadmap-content {
+  width: 90%;
+  position: relative;
+  margin: 0 auto;
+}
+.road-map-line {
+  width: 0.25rem;
+  height: 100%;
+  background: var(--white);
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.roadmap-box-left {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.roadmap-box-right {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 5rem 0;
+}
+.roadmap-box-content {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.roadmap-text-box {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background: var(--gradient);
+  padding: 2.5rem;
+  border-radius: 1rem;
+  color: var(--white);
+  font-size: 1.75rem;
+}
+.roadmap-text-box p {
+  margin: 0.65rem 0;
+}
+.roadmap-text-box h6 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0 0 1.5rem 0;
+}
+.roadmap-circle {
+  min-width: 6.5rem;
+  min-height: 6.5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--gradient);
+  font-size: 2.5rem;
+  color: var(--white);
+  font-weight: 600;
+}
+.roadmap-box-left .roadmap-circle {
+  transform: translate(3.25rem, 0);
+}
+.roadmap-box-right .roadmap-circle {
+  transform: translate(-3.25rem, 0);
+}
 @media screen and (max-width: 1000px) {
   .team-content {
     width: 100%;
